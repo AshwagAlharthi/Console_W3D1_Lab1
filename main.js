@@ -26,3 +26,20 @@ console.log(hour + " hours = " + second + " Seconds");
  */
 let thingOne = `Ashwag`, thingTwo = `Alharthi`;
 console.log(`${thingOne} ${thingTwo}`);
+
+
+// Question No5
+/*
+ * REQUIREMENTS
+ * 1. Your code should have the variables - `bill`, `tip`, and `total`
+ * 2. Your variables - `bill`, `tip`, and `total` should be declared using the `var` keyword
+ * 3. Your variable `bill` should be a number, having a value equal to the result of `10.25 + 3.99 + 7.15`
+ * 4. Your variable `tip` should be a number, having a value equal to 15% of the `bill`
+ * 5. Your variabe `total` should be a number, having a value equal to the `bill` and `tip` added together
+ * 6. Your code should print the total to the console
+ */
+
+var bill = 10.25 + 3.99 + 7.15; 21.39
+var tip = bill * 0.15 ; 3,2085
+var total = bill + tip;
+console.log(total);
