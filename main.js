@@ -61,3 +61,25 @@ var adjective2 = "fun";
 var adjective3 = "entertaining";
 var madLib = `The Intro to JavaScript course is ${adjective1}. James and Julia are so ${adjective2}. I cannot wait to work through the rest of this ${adjective3} content!`
 console.log(madLib);
+
+// Question No7
+/*
+ * REQUIREMENTS
+ * 1. Create the following variables:
+ *     - firstName
+ *     - interest
+ *     - hobby
+ *
+ * 2. Create `awesomeMessage` variable, and set it to a message using string concatenation and the variables above.
+ *  The `awesomeMessage` variable should use `firstName`, `interest`, and `hobby`
+ *
+ * 3. The `awesomeMessage` variable should have the correct format, as shown below:
+ * "Hi, my name is _____. I love ______. In my spare time, I like to ______."
+ *
+ * 4. Print `awesomeMessage` variable to the console using log() method
+ */
+let firstName = "Ashwag";
+let interest = "programming";
+let hobby = "learning a new programming language";
+let awesomeMessage = `Hi, my name is ${firstName}. I love ${interest}. In my spare time, I like to ${hobby}.`;
+console.log(awesomeMessage);
