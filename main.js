@@ -23,7 +23,6 @@ console.log(hour + " hours = " + second + " Seconds");
 let thingOne = `Ashwag`, thingTwo = `Alharthi`;
 console.log(thingOne + ' ' + thingTwo);
 
-
 // Question No5
 var bill = 10.25 + 3.99 + 7.15;
 var tip = bill * 0.15 ;
