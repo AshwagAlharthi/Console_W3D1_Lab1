@@ -8,3 +8,9 @@ console.log("The area of the rectangle is: " , result);
 let c_degree = 30;
 let f_degree =  c_degree * (9/5) + 32;
 console.log(c_degree+"°C is " + f_degree + "°F");
+
+
+// Questtion No3
+let hour = 12 ;
+let second = hour * 3600;
+console.log(hour + " hours = " + second + " Seconds");
